@@ -1,0 +1,320 @@
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\InmoviliariaWeb.dll.config
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\InmoviliariaWeb.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\InmoviliariaWeb.pdb
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\csc.exe
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\csc.exe.config
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\csc.rsp
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\csi.exe
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\csi.exe.config
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\csi.rsp
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.AppContext.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Console.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Net.Http.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\vbc.exe
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\vbc.exe.config
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\vbc.rsp
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\Antlr3.Runtime.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\Newtonsoft.Json.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\System.Web.Optimization.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\WebGrease.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\System.Web.Optimization.xml
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\Newtonsoft.Json.xml
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\Antlr3.Runtime.pdb
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\obj\Debug\InmoviliariaWeb.csproj.AssemblyReference.cache
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\obj\Debug\InmoviliariaWeb.csproj.CoreCompileInputs.cache
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\obj\Debug\InmoviliariaWeb.csproj.CopyComplete
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\obj\Debug\InmoviliariaWeb.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\obj\Debug\InmoviliariaWeb.pdb
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\EntityFramework.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\EntityFramework.xml
+C:\Proyectos\AplicacionServWeb\InmobiliariaWeb\InmoviliariaWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\obj\Debug\InmoviliariaWeb.csproj.AssemblyReference.cache
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\obj\Debug\InmoviliariaWeb.csproj.CoreCompileInputs.cache
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\obj\Debug\InmoviliariaWeb.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\obj\Debug\InmoviliariaWeb.pdb
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\InmoviliariaWeb.dll.config
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\InmoviliariaWeb.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\InmoviliariaWeb.pdb
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\csc.exe
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\csc.exe.config
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\csc.rsp
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\csi.exe
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\csi.exe.config
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\csi.rsp
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.AppContext.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Console.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\vbc.exe
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\vbc.exe.config
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\vbc.rsp
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\Antlr3.Runtime.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\EntityFramework.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\Newtonsoft.Json.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\System.Web.Optimization.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\WebGrease.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\EntityFramework.xml
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\System.Web.Optimization.xml
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\Newtonsoft.Json.xml
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\Antlr3.Runtime.pdb
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\es\System.Web.Optimization.resources.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\lukas\OneDrive\Escritorio\Para entregar\InmobiliariaWeb-main\InmoviliariaWeb\obj\Debug\InmoviliariaWeb.csproj.CopyComplete
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\InmoviliariaWeb.dll.config
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\InmoviliariaWeb.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\InmoviliariaWeb.pdb
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\csc.exe
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\csc.exe.config
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\csc.rsp
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\csi.exe
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\csi.exe.config
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\csi.rsp
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.AppContext.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Console.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Globalization.Calendars.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.IO.Compression.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.IO.FileSystem.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Net.Http.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Net.Sockets.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.ValueTuple.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Xml.XPath.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\vbc.exe
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\vbc.exe.config
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\vbc.rsp
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\VBCSCompiler.exe
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\Antlr3.Runtime.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\AspNet.ScriptManager.jQuery.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\EntityFramework.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\Newtonsoft.Json.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\System.Web.Optimization.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\WebGrease.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\EntityFramework.xml
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\System.Web.Optimization.xml
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\Newtonsoft.Json.xml
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\Antlr3.Runtime.pdb
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\es\System.Web.Optimization.resources.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\obj\Debug\InmoviliariaWeb.csproj.AssemblyReference.cache
+C:\Proyectos\AppFinal2\Inmobiliaria\obj\Debug\InmoviliariaWeb.csproj.CoreCompileInputs.cache
+C:\Proyectos\AppFinal2\Inmobiliaria\obj\Debug\InmoviliariaWeb.csproj.CopyComplete
+C:\Proyectos\AppFinal2\Inmobiliaria\obj\Debug\InmoviliariaWeb.dll
+C:\Proyectos\AppFinal2\Inmobiliaria\obj\Debug\InmoviliariaWeb.pdb
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\obj\Debug\InmoviliariaWeb.csproj.AssemblyReference.cache
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\obj\Debug\InmoviliariaWeb.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\obj\Debug\InmoviliariaWeb.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\obj\Debug\InmoviliariaWeb.pdb
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\InmoviliariaWeb.dll.config
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\InmoviliariaWeb.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\InmoviliariaWeb.pdb
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\csc.exe
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\csc.exe.config
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\csc.rsp
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\csi.exe
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\csi.exe.config
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\csi.rsp
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.AppContext.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Console.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.IO.Compression.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Net.Http.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Net.Sockets.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.ValueTuple.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Xml.XPath.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\vbc.exe
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\vbc.exe.config
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\vbc.rsp
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\VBCSCompiler.exe
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\Antlr3.Runtime.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\EntityFramework.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\EntityFramework.SqlServer.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\Newtonsoft.Json.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\System.Web.Optimization.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\WebGrease.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\EntityFramework.xml
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\EntityFramework.SqlServer.xml
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\System.Web.Optimization.xml
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\Newtonsoft.Json.xml
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\Antlr3.Runtime.pdb
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\es\System.Web.Optimization.resources.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\SEBASTIANBERRIOCHAVA\Downloads\Webinmobiliaria\InmobiliariaWeb-master\obj\Debug\InmoviliariaWeb.csproj.CopyComplete

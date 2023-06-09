@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro Empleados</title>
+    
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link href="Estilos/all.min.css" rel="stylesheet" />
+    <!-- Theme style -->
+    <link href="Estilos/adminlte.min.css" rel="stylesheet" />
+</head>
+<body class="hold-transition sidebar-mini">
+    <!--========================-->
+    <!-- Encabezado -->
+    <!--========================-->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-4"></p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+        <a class="navbar-brand" href="#">
+            <span class="text-primary fs-5 fw-bold"><h3>LiveWorkSpace.</h3></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="HtmlPage1.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class=" nav-link" href="Cliente.html">Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Empleados.html">Empleados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="PropiedadesWeb.html">Inmuebles</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- left column -->
+                <div class="col-md-12">
+                    <!-- general form elements -->
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Empleados</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <!-- form start -->
+                        <form id="frmRegistraCliente">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="txtCedula">Cedula</label>
+                                            <input type="text" class="form-control" id="txtCedula" placeholder="Cedula">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="txtNombre">Nombre</label>
+                                            <input type="text" class="form-control" id="txtNombre" placeholder=" Nombre">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="txtApellido">Apellido</label>
+                                            <input type="text" class="form-control" id="txtApellido" placeholder="Apellido">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="txtEmail">Email</label>
+                                            <input type="text" class="form-control" id="txtEmail" placeholder="Email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="cboTelefono">Tipo de Telefono</label>
+                                            <select id="cboTelefono" class="form-control">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="txtTelefono">Telefono</label>
+                                            <input type="tel" class="form-control" id="txtTelefono" placeholder="Telefono">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="cboGenero">Genero</label>
+                                            <select id="cboGenero" class="form-control">
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="cboContrato">Tipo de contrato</label>
+                                            <select id="cboContrato" class="form-control">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="cboSede">Sede</label>
+                                            <select id="cboSede" class="form-control">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="cboCargo">Cargo</label>
+                                            <select id="cboCargo" class="form-control">
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <button id="bntInsertar" class="btn btn-primary">INSERTAR</button>
+                                            <button id="btnActualizar" class="btn btn-success">ACTUALIZAR</button>
+                                            <button id="btnEliminar" class="btn btn-danger">ELIMINAR</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <table id="tblEmpleado" class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>id_empleado</th>
+                                                    <th>nombre</th>
+                                                    <th>apellido</th>
+                                                    <th>email</th>
+                                                    <th>tipo_tel</th>
+                                                    <th>telefono</th>
+                                                    <th>telefononu</th>
+                                                    <th>genero</th>
+                                                    <th>geners</th>
+                                                    <th>cargo</th>
+                                                    <th>cargos</th>
+                                                    <th>tipo_contrato</th>
+                                                    <th>tipoC</th>
+                                                    <th>sede</th>
+                                                    <th>sedes</th>
+                                                    <th>Comando</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                            <div class="card-footer">
+                                <div id="dvMensaje" class=""></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../Scripts/jquery.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/jquery.dataTables.min.js"></script>
+    <script src="../Scripts/dataTables.bootstrap4.min.js"></script>
+    <script src="Scripts/Empleados.js"></script>
+    <script src="Scripts/Grids.js"></script>
+    <!-- /.card -->
+</body>
+</html>

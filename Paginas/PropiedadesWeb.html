@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro Propiedades</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link href="Estilos/all.min.css" rel="stylesheet" />
+    <!-- Theme style -->
+    <link href="Estilos/adminlte.min.css" rel="stylesheet" />
+</head>
+<body class="hold-transition sidebar-mini">
+    <!--========================-->
+    <!-- Encabezado -->
+    <!--========================-->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-4"></p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+        <a class="navbar-brand" href="#">
+            <span class="text-primary fs-5 fw-bold"><h3>LiveWorkSpace.</h3></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="HtmlPage1.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class=" nav-link" href="Cliente.html">Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Empleados.html">Empleados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="PropiedadesWeb.html">Inmuebles</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- left column -->
+                <div class="col-md-12">
+                    <!-- general form elements -->
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">PROPIEDADES INMOBILIARIA</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <!-- form start -->
+                        <form id="frmRegistraCliente">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label for="txtid_propiedad">Codigo Propiedad</label>
+                                            <input type="text" class="form-control" id="txtid_propiedad" placeholder="Codigo Propiedad">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label for="txtDireccion">Direccion</label>
+                                            <input type="text" class="form-control" id="txtDireccion" placeholder="Direccion Propiedad">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label for="cboCiudad">Ciudad</label>
+                                            <select id="cboCiudad" class="form-control">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label for="cboDepartamento">Departamento</label>
+                                            <select id="cboDepartamento" class="form-control">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label for="cboTipoPropiedad">Tipo Propiedad</label>
+                                            <select id="cboTipoPropiedad" class="form-control">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-group">
+                                            <label for="txtNumHabitaciones">Numero Habitaciones</label>
+                                            <input type="number" class="form-control" id="txtNumHabitaciones" placeholder="Numero Habitaciones">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="txtNumBanos">Numero Baños</label>
+                                            <input type="number" class="form-control" id="txtNumBanos" placeholder="Numero Baños">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="cboEstacionamiento">Estacionamiento</label>
+                                            <select id="cboEstacionamiento" class="form-control">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="cboEstado">Estado de la propiedad</label>
+                                            <select id="cboEstado" class="form-control">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="cboTipoContrato">Tipo Contrato</label>
+                                            <select id="cboTipoContrato" class="form-control">
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="txtPrecioInicial">Precio Inicial</label>
+                                            <input type="number" class="form-control" id="txtPrecioInicial" placeholder="Precio Inicial">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="cboComision">Comision</label>
+                                            <select id="cboComision" class="form-control" disabled>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="txtPrecioFinal">Precio Final</label>
+                                            <input type="number" class="form-control" id="txtPrecioFinal" placeholder="Precio Final" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group"></div>
+                                        <button type="button" class="btn btn-primary" id="btnBuscar">Buscar</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <button id="bntInsertar" class="btn btn-primary">INSERTAR</button>
+                                            <button id="btnActualizar" class="btn btn-success">ACTUALIZAR</button>
+                                            <button id="btnEliminar" class="btn btn-danger">ELIMINAR</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <table id="tblPropiedades" class="table table-bordered table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>CODIGO PROPIEDAD</th>
+                                                    <th>DIRECCION</th>
+                                                    <th>CIUDAD</th>
+                                                    <th>DEPARTAMENTO</th>
+                                                    <th>TIPO DE PROPIEDAD</th>
+                                                    <th>No HABITACIONES</th>
+                                                    <th>No BAÑOS</th>
+                                                    <th>ESTACIONAMIENTO</th>
+                                                    <th>ESTADO PROPIEDAD</th>
+                                                    <th>TIPO DE CONTRATO</th>
+                                                    <th>PRECIO INICIAL</th>
+                                                    <th>COMISION</th>
+                                                    <th>PRECIO FINAL</th>
+                                                    <th>Comando</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                            <div class="card-footer">
+                                <div id="dvMensaje" class=""></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../Scripts/jquery.min.js"></script>
+    <script src="../Scripts/bootstrap.bundle.min.js"></script>
+    <script src="../Scripts/jquery.dataTables.min.js"></script>
+    <script src="../Scripts/dataTables.bootstrap4.min.js"></script>
+    <script src="Scripts/Grids.js"></script>
+    <script src="Scripts/Propiedades.js"></script>
+
+    <!-- /.card -->
+</body>
+</html>

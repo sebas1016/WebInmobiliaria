@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBInmobiliariaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cargo">
+    <Key>
+      <PropertyRef Name="id_cargo" />
+    </Key>
+    <Property Name="id_cargo" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ciudad">
+    <Key>
+      <PropertyRef Name="id_ciudad" />
+    </Key>
+    <Property Name="id_ciudad" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="id_cliente" />
+    </Key>
+    <Property Name="id_cliente" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellido" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="genero" Type="Int32" Nullable="false" />
+    <Property Name="direccion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ciudad" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Telefonoes" Relationship="Self.FK_Telefono_Clientes" FromRole="Clientes" ToRole="Telefono" />
+  </EntityType>
+  <EntityType Name="Comision">
+    <Key>
+      <PropertyRef Name="id_comision" />
+    </Key>
+    <Property Name="id_comision" Type="Int32" Nullable="false" />
+    <Property Name="descricion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ContratoPropiedad">
+    <Key>
+      <PropertyRef Name="id_contrato_propiedad" />
+    </Key>
+    <Property Name="id_contrato_propiedad" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Departamento">
+    <Key>
+      <PropertyRef Name="id_departamento" />
+    </Key>
+    <Property Name="id_departamento" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="id_empleado" />
+    </Key>
+    <Property Name="id_empleado" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellido" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tipo_tel" Type="Int32" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="genero" Type="Int32" Nullable="false" />
+    <Property Name="cargo" Type="Int32" Nullable="false" />
+    <Property Name="tipo_contrato" Type="Int32" Nullable="false" />
+    <Property Name="sede" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Estacionamiento">
+    <Key>
+      <PropertyRef Name="id_estacionamiento" />
+    </Key>
+    <Property Name="id_estacionamiento" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EstadoPropiedad">
+    <Key>
+      <PropertyRef Name="id_estado_propiedad" />
+    </Key>
+    <Property Name="id_estado_propiedad" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Genero">
+    <Key>
+      <PropertyRef Name="genero1" />
+    </Key>
+    <Property Name="genero1" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Propiedade">
+    <Key>
+      <PropertyRef Name="id_propiedad" />
+    </Key>
+    <Property Name="id_propiedad" Type="Int32" Nullable="false" />
+    <Property Name="direccion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ciudad" Type="Int32" Nullable="false" />
+    <Property Name="departamento" Type="Int32" Nullable="false" />
+    <Property Name="tipo_propiedad" Type="Int32" Nullable="false" />
+    <Property Name="num_habitaciones" Type="Int32" Nullable="false" />
+    <Property Name="num_banos" Type="Int32" Nullable="false" />
+    <Property Name="estacionamiento" Type="Int32" Nullable="false" />
+    <Property Name="estado" Type="Int32" Nullable="false" />
+    <Property Name="tipo_contrato" Type="Int32" Nullable="false" />
+    <Property Name="precio_inicial" Type="Int32" Nullable="false" />
+    <Property Name="comision" Type="Int32" Nullable="false" />
+    <Property Name="precio_final" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sede">
+    <Key>
+      <PropertyRef Name="id_Sede" />
+    </Key>
+    <Property Name="id_Sede" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Telefono">
+    <Key>
+      <PropertyRef Name="id_tel" />
+    </Key>
+    <Property Name="id_tel" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numero" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cliente" Type="Int32" Nullable="false" />
+    <Property Name="tipo_telefono" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Cliente1" Relationship="Self.FK_Telefono_Clientes" FromRole="Telefono" ToRole="Clientes" />
+    <NavigationProperty Name="Tipo_Tel" Relationship="Self.FK_Telefono_Tipo_Tel" FromRole="Telefono" ToRole="Tipo_Tel" />
+  </EntityType>
+  <EntityType Name="Tipo_Tel">
+    <Key>
+      <PropertyRef Name="id_tipo_tel" />
+    </Key>
+    <Property Name="id_tipo_tel" Type="Int32" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="activo" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Telefonoes" Relationship="Self.FK_Telefono_Tipo_Tel" FromRole="Tipo_Tel" ToRole="Telefono" />
+  </EntityType>
+  <EntityType Name="TiposContrato">
+    <Key>
+      <PropertyRef Name="id_tipo_contrato" />
+    </Key>
+    <Property Name="id_tipo_contrato" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TiposPropiedad">
+    <Key>
+      <PropertyRef Name="id_tipo_propiedad" />
+    </Key>
+    <Property Name="id_tipo_propiedad" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Telefono_Clientes">
+    <End Role="Clientes" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Telefono" Type="Self.Telefono" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="id_cliente" />
+      </Principal>
+      <Dependent Role="Telefono">
+        <PropertyRef Name="cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Telefono_Tipo_Tel">
+    <End Role="Tipo_Tel" Type="Self.Tipo_Tel" Multiplicity="1" />
+    <End Role="Telefono" Type="Self.Telefono" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Tel">
+        <PropertyRef Name="id_tipo_tel" />
+      </Principal>
+      <Dependent Role="Telefono">
+        <PropertyRef Name="tipo_telefono" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBInmobiliariaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cargoes" EntityType="Self.Cargo" />
+    <EntitySet Name="Ciudads" EntityType="Self.Ciudad" />
+    <EntitySet Name="Clientes" EntityType="Self.Cliente" />
+    <EntitySet Name="Comisions" EntityType="Self.Comision" />
+    <EntitySet Name="ContratoPropiedads" EntityType="Self.ContratoPropiedad" />
+    <EntitySet Name="Departamentoes" EntityType="Self.Departamento" />
+    <EntitySet Name="Empleados" EntityType="Self.Empleado" />
+    <EntitySet Name="Estacionamientoes" EntityType="Self.Estacionamiento" />
+    <EntitySet Name="EstadoPropiedads" EntityType="Self.EstadoPropiedad" />
+    <EntitySet Name="Generoes" EntityType="Self.Genero" />
+    <EntitySet Name="Propiedades" EntityType="Self.Propiedade" />
+    <EntitySet Name="Sedes" EntityType="Self.Sede" />
+    <EntitySet Name="Telefonoes" EntityType="Self.Telefono" />
+    <EntitySet Name="Tipo_Tel" EntityType="Self.Tipo_Tel" />
+    <EntitySet Name="TiposContratoes" EntityType="Self.TiposContrato" />
+    <EntitySet Name="TiposPropiedads" EntityType="Self.TiposPropiedad" />
+    <AssociationSet Name="FK_Telefono_Clientes" Association="Self.FK_Telefono_Clientes">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Telefono" EntitySet="Telefonoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Telefono_Tipo_Tel" Association="Self.FK_Telefono_Tipo_Tel">
+      <End Role="Tipo_Tel" EntitySet="Tipo_Tel" />
+      <End Role="Telefono" EntitySet="Telefonoes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

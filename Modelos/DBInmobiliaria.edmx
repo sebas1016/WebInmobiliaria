@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DBInmobiliariaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Cargo">
+          <Key>
+            <PropertyRef Name="id_cargo" />
+          </Key>
+          <Property Name="id_cargo" Type="int" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Ciudad">
+          <Key>
+            <PropertyRef Name="id_ciudad" />
+          </Key>
+          <Property Name="id_ciudad" Type="int" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Clientes">
+          <Key>
+            <PropertyRef Name="id_cliente" />
+          </Key>
+          <Property Name="id_cliente" Type="int" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="apellido" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="email" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="genero" Type="int" Nullable="false" />
+          <Property Name="direccion" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="ciudad" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Comision">
+          <Key>
+            <PropertyRef Name="id_comision" />
+          </Key>
+          <Property Name="id_comision" Type="int" Nullable="false" />
+          <Property Name="descricion" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ContratoPropiedad">
+          <Key>
+            <PropertyRef Name="id_contrato_propiedad" />
+          </Key>
+          <Property Name="id_contrato_propiedad" Type="int" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Departamento">
+          <Key>
+            <PropertyRef Name="id_departamento" />
+          </Key>
+          <Property Name="id_departamento" Type="int" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Empleados">
+          <Key>
+            <PropertyRef Name="id_empleado" />
+          </Key>
+          <Property Name="id_empleado" Type="int" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="apellido" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="email" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="tipo_tel" Type="int" Nullable="false" />
+          <Property Name="telefono" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="genero" Type="int" Nullable="false" />
+          <Property Name="cargo" Type="int" Nullable="false" />
+          <Property Name="tipo_contrato" Type="int" Nullable="false" />
+          <Property Name="sede" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Estacionamiento">
+          <Key>
+            <PropertyRef Name="id_estacionamiento" />
+          </Key>
+          <Property Name="id_estacionamiento" Type="int" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EstadoPropiedad">
+          <Key>
+            <PropertyRef Name="id_estado_propiedad" />
+          </Key>
+          <Property Name="id_estado_propiedad" Type="int" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Genero">
+          <Key>
+            <PropertyRef Name="genero" />
+          </Key>
+          <Property Name="genero" Type="int" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Propiedades">
+          <Key>
+            <PropertyRef Name="id_propiedad" />
+          </Key>
+          <Property Name="id_propiedad" Type="int" Nullable="false" />
+          <Property Name="direccion" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="ciudad" Type="int" Nullable="false" />
+          <Property Name="departamento" Type="int" Nullable="false" />
+          <Property Name="tipo_propiedad" Type="int" Nullable="false" />
+          <Property Name="num_habitaciones" Type="int" Nullable="false" />
+          <Property Name="num_banos" Type="int" Nullable="false" />
+          <Property Name="estacionamiento" Type="int" Nullable="false" />
+          <Property Name="estado" Type="int" Nullable="false" />
+          <Property Name="tipo_contrato" Type="int" Nullable="false" />
+          <Property Name="precio_inicial" Type="int" Nullable="false" />
+          <Property Name="comision" Type="int" Nullable="false" />
+          <Property Name="precio_final" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Sede">
+          <Key>
+            <PropertyRef Name="id_Sede" />
+          </Key>
+          <Property Name="id_Sede" Type="int" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Telefono">
+          <Key>
+            <PropertyRef Name="id_tel" />
+          </Key>
+          <Property Name="id_tel" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="numero" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="cliente" Type="int" Nullable="false" />
+          <Property Name="tipo_telefono" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Tipo_Tel">
+          <Key>
+            <PropertyRef Name="id_tipo_tel" />
+          </Key>
+          <Property Name="id_tipo_tel" Type="int" Nullable="false" />
+          <Property Name="descripcion" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="activo" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TiposContrato">
+          <Key>
+            <PropertyRef Name="id_tipo_contrato" />
+          </Key>
+          <Property Name="id_tipo_contrato" Type="int" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TiposPropiedad">
+          <Key>
+            <PropertyRef Name="id_tipo_propiedad" />
+          </Key>
+          <Property Name="id_tipo_propiedad" Type="int" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Telefono_Clientes">
+          <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+          <End Role="Telefono" Type="Self.Telefono" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="id_cliente" />
+            </Principal>
+            <Dependent Role="Telefono">
+              <PropertyRef Name="cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Telefono_Tipo_Tel">
+          <End Role="Tipo_Tel" Type="Self.Tipo_Tel" Multiplicity="1" />
+          <End Role="Telefono" Type="Self.Telefono" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tipo_Tel">
+              <PropertyRef Name="id_tipo_tel" />
+            </Principal>
+            <Dependent Role="Telefono">
+              <PropertyRef Name="tipo_telefono" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DBInmobiliariaModelStoreContainer">
+          <EntitySet Name="Cargo" EntityType="Self.Cargo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Ciudad" EntityType="Self.Ciudad" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Comision" EntityType="Self.Comision" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ContratoPropiedad" EntityType="Self.ContratoPropiedad" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Departamento" EntityType="Self.Departamento" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Empleados" EntityType="Self.Empleados" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Estacionamiento" EntityType="Self.Estacionamiento" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EstadoPropiedad" EntityType="Self.EstadoPropiedad" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Genero" EntityType="Self.Genero" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Propiedades" EntityType="Self.Propiedades" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sede" EntityType="Self.Sede" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Telefono" EntityType="Self.Telefono" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tipo_Tel" EntityType="Self.Tipo_Tel" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TiposContrato" EntityType="Self.TiposContrato" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TiposPropiedad" EntityType="Self.TiposPropiedad" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Telefono_Clientes" Association="Self.FK_Telefono_Clientes">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Telefono" EntitySet="Telefono" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Telefono_Tipo_Tel" Association="Self.FK_Telefono_Tipo_Tel">
+            <End Role="Tipo_Tel" EntitySet="Tipo_Tel" />
+            <End Role="Telefono" EntitySet="Telefono" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBInmobiliariaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Cargo">
+          <Key>
+            <PropertyRef Name="id_cargo" />
+          </Key>
+          <Property Name="id_cargo" Type="Int32" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Ciudad">
+          <Key>
+            <PropertyRef Name="id_ciudad" />
+          </Key>
+          <Property Name="id_ciudad" Type="Int32" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="id_cliente" />
+          </Key>
+          <Property Name="id_cliente" Type="Int32" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="apellido" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="email" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="genero" Type="Int32" Nullable="false" />
+          <Property Name="direccion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ciudad" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Telefonoes" Relationship="Self.FK_Telefono_Clientes" FromRole="Clientes" ToRole="Telefono" />
+        </EntityType>
+        <EntityType Name="Comision">
+          <Key>
+            <PropertyRef Name="id_comision" />
+          </Key>
+          <Property Name="id_comision" Type="Int32" Nullable="false" />
+          <Property Name="descricion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ContratoPropiedad">
+          <Key>
+            <PropertyRef Name="id_contrato_propiedad" />
+          </Key>
+          <Property Name="id_contrato_propiedad" Type="Int32" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Departamento">
+          <Key>
+            <PropertyRef Name="id_departamento" />
+          </Key>
+          <Property Name="id_departamento" Type="Int32" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Empleado">
+          <Key>
+            <PropertyRef Name="id_empleado" />
+          </Key>
+          <Property Name="id_empleado" Type="Int32" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="apellido" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="email" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="tipo_tel" Type="Int32" Nullable="false" />
+          <Property Name="telefono" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="genero" Type="Int32" Nullable="false" />
+          <Property Name="cargo" Type="Int32" Nullable="false" />
+          <Property Name="tipo_contrato" Type="Int32" Nullable="false" />
+          <Property Name="sede" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Estacionamiento">
+          <Key>
+            <PropertyRef Name="id_estacionamiento" />
+          </Key>
+          <Property Name="id_estacionamiento" Type="Int32" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EstadoPropiedad">
+          <Key>
+            <PropertyRef Name="id_estado_propiedad" />
+          </Key>
+          <Property Name="id_estado_propiedad" Type="Int32" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Genero">
+          <Key>
+            <PropertyRef Name="genero1" />
+          </Key>
+          <Property Name="genero1" Type="Int32" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Propiedade">
+          <Key>
+            <PropertyRef Name="id_propiedad" />
+          </Key>
+          <Property Name="id_propiedad" Type="Int32" Nullable="false" />
+          <Property Name="direccion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ciudad" Type="Int32" Nullable="false" />
+          <Property Name="departamento" Type="Int32" Nullable="false" />
+          <Property Name="tipo_propiedad" Type="Int32" Nullable="false" />
+          <Property Name="num_habitaciones" Type="Int32" Nullable="false" />
+          <Property Name="num_banos" Type="Int32" Nullable="false" />
+          <Property Name="estacionamiento" Type="Int32" Nullable="false" />
+          <Property Name="estado" Type="Int32" Nullable="false" />
+          <Property Name="tipo_contrato" Type="Int32" Nullable="false" />
+          <Property Name="precio_inicial" Type="Int32" Nullable="false" />
+          <Property Name="comision" Type="Int32" Nullable="false" />
+          <Property Name="precio_final" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Sede">
+          <Key>
+            <PropertyRef Name="id_Sede" />
+          </Key>
+          <Property Name="id_Sede" Type="Int32" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Telefono">
+          <Key>
+            <PropertyRef Name="id_tel" />
+          </Key>
+          <Property Name="id_tel" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="numero" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="cliente" Type="Int32" Nullable="false" />
+          <Property Name="tipo_telefono" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Cliente1" Relationship="Self.FK_Telefono_Clientes" FromRole="Telefono" ToRole="Clientes" />
+          <NavigationProperty Name="Tipo_Tel" Relationship="Self.FK_Telefono_Tipo_Tel" FromRole="Telefono" ToRole="Tipo_Tel" />
+        </EntityType>
+        <EntityType Name="Tipo_Tel">
+          <Key>
+            <PropertyRef Name="id_tipo_tel" />
+          </Key>
+          <Property Name="id_tipo_tel" Type="Int32" Nullable="false" />
+          <Property Name="descripcion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="activo" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Telefonoes" Relationship="Self.FK_Telefono_Tipo_Tel" FromRole="Tipo_Tel" ToRole="Telefono" />
+        </EntityType>
+        <EntityType Name="TiposContrato">
+          <Key>
+            <PropertyRef Name="id_tipo_contrato" />
+          </Key>
+          <Property Name="id_tipo_contrato" Type="Int32" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TiposPropiedad">
+          <Key>
+            <PropertyRef Name="id_tipo_propiedad" />
+          </Key>
+          <Property Name="id_tipo_propiedad" Type="Int32" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Telefono_Clientes">
+          <End Role="Clientes" Type="Self.Cliente" Multiplicity="1" />
+          <End Role="Telefono" Type="Self.Telefono" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clientes">
+              <PropertyRef Name="id_cliente" />
+            </Principal>
+            <Dependent Role="Telefono">
+              <PropertyRef Name="cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Telefono_Tipo_Tel">
+          <End Role="Tipo_Tel" Type="Self.Tipo_Tel" Multiplicity="1" />
+          <End Role="Telefono" Type="Self.Telefono" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tipo_Tel">
+              <PropertyRef Name="id_tipo_tel" />
+            </Principal>
+            <Dependent Role="Telefono">
+              <PropertyRef Name="tipo_telefono" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DBInmobiliariaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Cargoes" EntityType="Self.Cargo" />
+          <EntitySet Name="Ciudads" EntityType="Self.Ciudad" />
+          <EntitySet Name="Clientes" EntityType="Self.Cliente" />
+          <EntitySet Name="Comisions" EntityType="Self.Comision" />
+          <EntitySet Name="ContratoPropiedads" EntityType="Self.ContratoPropiedad" />
+          <EntitySet Name="Departamentoes" EntityType="Self.Departamento" />
+          <EntitySet Name="Empleados" EntityType="Self.Empleado" />
+          <EntitySet Name="Estacionamientoes" EntityType="Self.Estacionamiento" />
+          <EntitySet Name="EstadoPropiedads" EntityType="Self.EstadoPropiedad" />
+          <EntitySet Name="Generoes" EntityType="Self.Genero" />
+          <EntitySet Name="Propiedades" EntityType="Self.Propiedade" />
+          <EntitySet Name="Sedes" EntityType="Self.Sede" />
+          <EntitySet Name="Telefonoes" EntityType="Self.Telefono" />
+          <EntitySet Name="Tipo_Tel" EntityType="Self.Tipo_Tel" />
+          <EntitySet Name="TiposContratoes" EntityType="Self.TiposContrato" />
+          <EntitySet Name="TiposPropiedads" EntityType="Self.TiposPropiedad" />
+          <AssociationSet Name="FK_Telefono_Clientes" Association="Self.FK_Telefono_Clientes">
+            <End Role="Clientes" EntitySet="Clientes" />
+            <End Role="Telefono" EntitySet="Telefonoes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Telefono_Tipo_Tel" Association="Self.FK_Telefono_Tipo_Tel">
+            <End Role="Tipo_Tel" EntitySet="Tipo_Tel" />
+            <End Role="Telefono" EntitySet="Telefonoes" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBInmobiliariaModelStoreContainer" CdmEntityContainer="DBInmobiliariaEntities">
+          <EntitySetMapping Name="Cargoes">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.Cargo">
+              <MappingFragment StoreEntitySet="Cargo">
+                <ScalarProperty Name="id_cargo" ColumnName="id_cargo" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ciudads">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.Ciudad">
+              <MappingFragment StoreEntitySet="Ciudad">
+                <ScalarProperty Name="id_ciudad" ColumnName="id_ciudad" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Clientes">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.Cliente">
+              <MappingFragment StoreEntitySet="Clientes">
+                <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="apellido" ColumnName="apellido" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="genero" ColumnName="genero" />
+                <ScalarProperty Name="direccion" ColumnName="direccion" />
+                <ScalarProperty Name="ciudad" ColumnName="ciudad" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Comisions">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.Comision">
+              <MappingFragment StoreEntitySet="Comision">
+                <ScalarProperty Name="id_comision" ColumnName="id_comision" />
+                <ScalarProperty Name="descricion" ColumnName="descricion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ContratoPropiedads">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.ContratoPropiedad">
+              <MappingFragment StoreEntitySet="ContratoPropiedad">
+                <ScalarProperty Name="id_contrato_propiedad" ColumnName="id_contrato_propiedad" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Departamentoes">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.Departamento">
+              <MappingFragment StoreEntitySet="Departamento">
+                <ScalarProperty Name="id_departamento" ColumnName="id_departamento" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Empleados">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.Empleado">
+              <MappingFragment StoreEntitySet="Empleados">
+                <ScalarProperty Name="id_empleado" ColumnName="id_empleado" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="apellido" ColumnName="apellido" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="tipo_tel" ColumnName="tipo_tel" />
+                <ScalarProperty Name="telefono" ColumnName="telefono" />
+                <ScalarProperty Name="genero" ColumnName="genero" />
+                <ScalarProperty Name="cargo" ColumnName="cargo" />
+                <ScalarProperty Name="tipo_contrato" ColumnName="tipo_contrato" />
+                <ScalarProperty Name="sede" ColumnName="sede" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Estacionamientoes">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.Estacionamiento">
+              <MappingFragment StoreEntitySet="Estacionamiento">
+                <ScalarProperty Name="id_estacionamiento" ColumnName="id_estacionamiento" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EstadoPropiedads">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.EstadoPropiedad">
+              <MappingFragment StoreEntitySet="EstadoPropiedad">
+                <ScalarProperty Name="id_estado_propiedad" ColumnName="id_estado_propiedad" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Generoes">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.Genero">
+              <MappingFragment StoreEntitySet="Genero">
+                <ScalarProperty Name="genero1" ColumnName="genero" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Propiedades">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.Propiedade">
+              <MappingFragment StoreEntitySet="Propiedades">
+                <ScalarProperty Name="id_propiedad" ColumnName="id_propiedad" />
+                <ScalarProperty Name="direccion" ColumnName="direccion" />
+                <ScalarProperty Name="ciudad" ColumnName="ciudad" />
+                <ScalarProperty Name="departamento" ColumnName="departamento" />
+                <ScalarProperty Name="tipo_propiedad" ColumnName="tipo_propiedad" />
+                <ScalarProperty Name="num_habitaciones" ColumnName="num_habitaciones" />
+                <ScalarProperty Name="num_banos" ColumnName="num_banos" />
+                <ScalarProperty Name="estacionamiento" ColumnName="estacionamiento" />
+                <ScalarProperty Name="estado" ColumnName="estado" />
+                <ScalarProperty Name="tipo_contrato" ColumnName="tipo_contrato" />
+                <ScalarProperty Name="precio_inicial" ColumnName="precio_inicial" />
+                <ScalarProperty Name="comision" ColumnName="comision" />
+                <ScalarProperty Name="precio_final" ColumnName="precio_final" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sedes">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.Sede">
+              <MappingFragment StoreEntitySet="Sede">
+                <ScalarProperty Name="id_Sede" ColumnName="id_Sede" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Telefonoes">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.Telefono">
+              <MappingFragment StoreEntitySet="Telefono">
+                <ScalarProperty Name="id_tel" ColumnName="id_tel" />
+                <ScalarProperty Name="numero" ColumnName="numero" />
+                <ScalarProperty Name="cliente" ColumnName="cliente" />
+                <ScalarProperty Name="tipo_telefono" ColumnName="tipo_telefono" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tipo_Tel">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.Tipo_Tel">
+              <MappingFragment StoreEntitySet="Tipo_Tel">
+                <ScalarProperty Name="id_tipo_tel" ColumnName="id_tipo_tel" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="activo" ColumnName="activo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TiposContratoes">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.TiposContrato">
+              <MappingFragment StoreEntitySet="TiposContrato">
+                <ScalarProperty Name="id_tipo_contrato" ColumnName="id_tipo_contrato" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TiposPropiedads">
+            <EntityTypeMapping TypeName="DBInmobiliariaModel.TiposPropiedad">
+              <MappingFragment StoreEntitySet="TiposPropiedad">
+                <ScalarProperty Name="id_tipo_propiedad" ColumnName="id_tipo_propiedad" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
